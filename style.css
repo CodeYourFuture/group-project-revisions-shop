@@ -28,6 +28,7 @@ html {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+
 }
 /* Buttons checkout */
 .button1 {
@@ -86,7 +87,11 @@ html {
 }
 
 .item__discount {
-  color: #7fcf80;
+
+  font-weight: bold;
+
+  color: #fc2727;
+
 }
 
 /* Footer */
