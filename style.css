@@ -1,4 +1,5 @@
 /* Base site colors and fonts */
+/* test */
 body,
 html {
   background: #202c20;
@@ -69,6 +70,15 @@ html {
   border-radius: 2px;
   background: #fff;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+.items {
+  display: flex;
+  flex-direction: column;
+}
+.item--discounted {
+  order: -1;
+
 }
 
 .item__price {
